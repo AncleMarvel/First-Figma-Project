@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="header">
+            <li><a class="header-links" href="index.html"><img src="assets/logo.svg" alt=""></a></li>
+            <li><a class="header-links" href="#"><img src="assets/contacts.svg" alt=""></a></li>
+        </ul>
+    </div>
+
+    <div class="container__contact-header">
+        <div class="contact-header">
+            <h2 class="heading-2 heading-contacts">Contact Us</h2>
+            <p class="text text__contact-header">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
+                adipisci.</p>
+        </div>
+    </div>
+
+    <div class="middle__container-contact">
+        <div class="aside middle__contact-paddings">
+            <div class="image middle__contact-paddings"><img src="assets/img.jpg" alt="image" style="width: 350px;">
+            </div>
+
+            <div class="address middle__contact-paddings">
+                <h4 class="heading-4 middle__contact-paddings">Address</h4>
+                <p class="text-color middle__contact-paddings">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="phone middle__contact-paddings">
+                <h4 class="heading-4 middle__contact-paddings">Phone</h4>
+                <ul class="text-color middle__contact-paddings">
+                    <li>+38(068)-238-13-87</li>
+                    <li>+38(099)-853-23-48</li>
+                </ul>
+            </div>
+
+            <div class="online-service middle__contact-paddings">
+                <h4 class="heading-4 middle__contact-paddings">Online service</h4>
+                <ul class="text-color middle__contact-paddings">
+                    <li><a href="index.html" class="text-color">Main page</a></li>
+                    <li><a href="mailto:address@domain.test" class="text-color">Our Mail</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="messageForm middle__contact-paddings">
+            <h4 class="heading-4 heading-send-message">Send us message</h4>
+            <form action="#" class="form text-color">
+                <label class="label-color" for="">Full name <br> <input class="entryField" type="text" size="30"
+                        placeholder="Ivan"> </label>
+                <label class="label-color" for="">Email <br> <input class="entryField" type="email" size="30"
+                        placeholder="email">
+                </label><br>
+                <label class="label-color" for="">Message <br> <textarea class="entryField" name="message" cols="30"
+                        rows="5" placeholder="Your Message"></textarea></label>
+                <button class="submitForm" type="submit">Submit</button>
+                <!-- <button type="reset">Reset</button> -->
+            </form>
+        </div>
+    </div>
+
+    <div class="map">
+        <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            <script>
+                (function () {
+                    var setting = {
+                        "height": 407,
+                        "zoom": 17,
+                        "queryString": "Black Cloud Bar, улица Ватутина, Кривой Рог, Днепропетровская область, Украина",
+                        "place_id": "ChIJ36swCJvh2kARd5q1236SFn4",
+                        "satellite": false,
+                        "centerCoord": [55.78680320487791, 37.63442557093252],
+                        "cid": "0x7e16927edbb59a77",
+                        "lang": "ru",
+                        "cityUrl": "/russia/moscow",
+                        "cityAnchorText": "Карта [CITY1], Central Federal District, Россия",
+                        "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                        "embed_id": "251375"
+                    };
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=251375';
+                    s.async = true;
+                    s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();
+            </script><a href="https://1map.com/ru/map-embed">1 Map</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__top footer__blank">
+            <div class="footer__text">
+                <h3 class="heading-3 footer-h3">Heading 3</h3>
+                <p class="text footer-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, corporis?</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer__bottom footer__blank">
+            <ul class="footer__info">
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>+380578346720</li>
+                <li>email@gamil.com</li>
+            </ul>
+            <p class="text footer-p footer__copy">Copyrights &copy A.M. corp</p>
+        </div>
+    </footer>
+</body>
+
+</html>
