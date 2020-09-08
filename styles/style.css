@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 375px; */
 }
 
 .header {
@@ -442,7 +442,38 @@ body {
         padding: 48px 0 32px 0;
     }
 
-    
+    .project {
+        margin: 0 auto;
+        padding: 64px 15px;
+        width: 343px;
+    }
+
+    .project__heading {
+        width: 343px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .project__images-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pr__img-1 {
+        padding: 0;
+    }
+
+    .pr__img-2 {
+        margin: 16px 0;
+    }
+
+    .pr__img-2, .pr__img-3 {
+        width: 100%;
+    }
+
     .footer__top {
         flex-direction: column;
     }
