@@ -432,6 +432,17 @@ body {
         padding: 0;
     }
 
+    .wwd-h4 {
+        /* align-self: center; */
+        margin: 0 auto;
+        width: 341px;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        padding: 48px 0 32px 0;
+    }
+
+    
     .footer__top {
         flex-direction: column;
     }
