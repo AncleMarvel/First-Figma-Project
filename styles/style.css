@@ -372,6 +372,15 @@ body {
     padding: 5% 0 5% 0;
 }
 
+.footer__copy {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
 @media (max-width: 1024px) {
     .top {
         padding: 32px;
@@ -396,10 +405,6 @@ body {
 
     .card {
         max-height: 448px;
-    }
-
-    .footer__blank {
-        padding: 47px 124px;
     }
 
     .footer__button {
@@ -428,7 +433,7 @@ body {
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 670px) {
 
     .top {
         padding: 24px 16px 41px 16px;
